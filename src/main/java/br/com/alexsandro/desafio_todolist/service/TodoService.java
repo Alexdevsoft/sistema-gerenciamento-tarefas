@@ -18,6 +18,7 @@ public class TodoService {
 
     public List<Todo> create(Todo todo) {
         todoRepository.save(todo);
+        return list();
     }
 
     public List<Todo> list() {
@@ -26,12 +27,14 @@ public class TodoService {
         return todoRepository.findAll(sort);
     }
 
-    public List<Todo> update() {
-
+    public List<Todo> update(Todo todo) {
+        todoRepository.save(todo);
+        return list();
     }
 
-    public List<Todo> delete() {
-
+    public List<Todo> delete(Long id) {
+        todoRepository.deleteById(id);
+        return list();
     }
 
 }
