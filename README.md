@@ -1,4 +1,4 @@
-# 📝 ToDo List API
+# 📝 Sistema Gerenciamento de Produtos
 
 API RESTful para gerenciamento de tarefas com **Spring Boot 3**, **validações**, **testes automatizados** e persistência em **MySQL** (produção) ou **H2** (testes).
 
