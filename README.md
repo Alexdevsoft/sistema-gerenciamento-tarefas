@@ -29,6 +29,8 @@ API RESTful para gerenciamento de tarefas com **Spring Boot 3**, **validações*
 | PUT    | `/todos`     | Atualiza uma tarefa               |
 | DELETE | `/todos/{id}`| Remove uma tarefa                 |
 
+
+# DIAGRAMA
 ```mermaid
     %%{init: {'theme': 'neutral'}}%%
 classDiagram
